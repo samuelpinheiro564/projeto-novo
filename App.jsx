@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
         marginLeft: 10,
     },
     buttonText: {
-        color: 'white',
+        color: 'white'
         fontWeight: 'bold',
     },
     listTitle: {
