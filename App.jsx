@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, View,StyleSheet } from "react-native";
 import { StatusBar } from "expo-status-bar";
 
 export default function App() {
@@ -9,3 +9,12 @@ export default function App() {
     </View>
 	);
 }
+const styles = StyleSheet.create({
+    container: {
+        
+    },
+    inputLine: {
+        borderBottomWidth:1,
+        borderBottomColor:'black',
+    },
+    });
